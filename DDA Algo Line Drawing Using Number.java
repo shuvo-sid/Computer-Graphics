@@ -9,7 +9,7 @@ import java.util.Random;
 
 import javax.swing.JFrame;
 
-public class Lab02DDA02 implements GLEventListener{
+public class DDA Algo implements GLEventListener{
    
    public void display(GLAutoDrawable drawable) {
       final GL2 gl = drawable.getGL().getGL2();
@@ -77,7 +77,7 @@ public class Lab02DDA02 implements GLEventListener{
       GLCapabilities capabilities = new GLCapabilities(profile);
       // The canvas 
       final GLCanvas glcanvas = new GLCanvas(capabilities);
-      Lab01 l = new Lab01();
+      DDA Algo l = new DDA Algo();
       glcanvas.addGLEventListener(l);
       glcanvas.setSize(400, 400);
       //creating frame
